@@ -1,13 +1,102 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Source Serif Pro', serif;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.card-body {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    -225deg,
+    #5d9fff 0%,
+    #b8dcff 48%,
+    #6bbbff 100%
+  );
+  box-shadow: rgb(40, 159, 237, 0.4) 5px 5px, rgb(40, 159, 237, 0.3) 10px 10px,
+    rgb(40, 159, 237, 0.2) 15px 15px, rgb(40, 159, 237, 0.1) 20px 20px,
+    rgb(40, 159, 237, 0.05) 25px 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 5px 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fas{
+  width:20%;
+  margin: auto;
+}
+
+.btn{
+  background: rgb(42, 62, 241);
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.rounded-circle{
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.card-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+i {
+  font-size: 2rem;
+  color: green;
+  text-align: center;
+}
+.card-content {
+  font-size: 1rem;
+  margin: auto;
+}
+.card-bottom {
+  text-align: center;
+  font-size: 0.8rem;
+}
+@media (max-width: 550px) {
+  html{
+    font-size: 14px;
+  }
+  .card-body {
+    width: 300px;
+  }
+  .card-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  html{
+    font-size: 12px;
+  }
+  .card-body {
+    width: 200px;
+  }
 }
