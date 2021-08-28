@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/random-user-app-inReact/static/css/main.752f5448.chunk.css",
+    "main.js": "/random-user-app-inReact/static/js/main.9d638f88.chunk.js",
+    "main.js.map": "/random-user-app-inReact/static/js/main.9d638f88.chunk.js.map",
+    "runtime-main.js": "/random-user-app-inReact/static/js/runtime-main.59713f69.js",
+    "runtime-main.js.map": "/random-user-app-inReact/static/js/runtime-main.59713f69.js.map",
+    "static/js/2.744febb3.chunk.js": "/random-user-app-inReact/static/js/2.744febb3.chunk.js",
+    "static/js/2.744febb3.chunk.js.map": "/random-user-app-inReact/static/js/2.744febb3.chunk.js.map",
+    "static/js/3.771b6a93.chunk.js": "/random-user-app-inReact/static/js/3.771b6a93.chunk.js",
+    "static/js/3.771b6a93.chunk.js.map": "/random-user-app-inReact/static/js/3.771b6a93.chunk.js.map",
+    "index.html": "/random-user-app-inReact/index.html",
+    "static/css/main.752f5448.chunk.css.map": "/random-user-app-inReact/static/css/main.752f5448.chunk.css.map",
+    "static/js/2.744febb3.chunk.js.LICENSE.txt": "/random-user-app-inReact/static/js/2.744febb3.chunk.js.LICENSE.txt",
+    "static/media/email.e1f03bb9.svg": "/random-user-app-inReact/static/media/email.e1f03bb9.svg",
+    "static/media/location.0b7d98ab.svg": "/random-user-app-inReact/static/media/location.0b7d98ab.svg",
+    "static/media/phone.d017e1ae.svg": "/random-user-app-inReact/static/media/phone.d017e1ae.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59713f69.js",
+    "static/js/2.744febb3.chunk.js",
+    "static/css/main.752f5448.chunk.css",
+    "static/js/main.9d638f88.chunk.js"
+  ]
+}
